@@ -1,0 +1,59 @@
+nohup: ignoring input
+INFO:     Will watch for changes in these directories: ['/home/ubuntu/amapiano-ai-platform/python-backend']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [187583] using WatchFiles
+[   INFO   ] MusicExtractorSVM: no classifier models were configured by default
+2025-11-04 15:15:41.622 | INFO     | app.services.advanced_timestretch:__init__:48 - AdvancedTimeStretchService initialized with professional parameters
+2025-11-04 15:15:41.623 | INFO     | app.services.ml_humanization:__init__:52 - MLHumanizationService initialized
+2025-11-04 15:15:41.793 | INFO     | app.services.ai_arrangement:__init__:52 - AIArrangementService initialized with Essentia
+INFO:     Started server process [187585]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:52132 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.122.212.1:33102 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.122.212.1:32932 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     10.122.212.1:32934 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     10.122.212.1:32944 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.122.212.1:32946 - "GET / HTTP/1.1" 200 OK
+INFO:     10.122.212.1:33536 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.122.212.1:33544 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     10.122.212.1:50150 - "GET / HTTP/1.1" 200 OK
+INFO:     10.122.212.1:50152 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     10.153.253.1:54552 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.153.253.1:36692 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     10.153.253.1:36708 - "HEAD /health HTTP/1.1" 405 Method Not Allowed
+INFO:     10.153.253.1:36720 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     10.153.253.1:36736 - "GET / HTTP/1.1" 200 OK
+INFO:     10.153.253.1:36744 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.153.253.1:36756 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.153.253.1:57022 - "GET / HTTP/1.1" 200 OK
+INFO:     10.153.253.1:57026 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     10.153.253.1:59182 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.153.253.1:59196 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     10.78.198.1:45642 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     10.78.198.1:45646 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     10.78.198.1:45660 - "GET / HTTP/1.1" 200 OK
+INFO:     10.78.198.1:45672 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.78.198.1:50728 - "GET / HTTP/1.1" 200 OK
+INFO:     10.78.198.1:50736 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     10.78.198.1:56632 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.78.198.1:56638 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     10.78.198.1:33120 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.78.198.1:54292 - "HEAD / HTTP/1.1" 405 Method Not Allowed
+INFO:     10.78.198.1:54300 - "HEAD /docs HTTP/1.1" 200 OK
+INFO:     10.78.198.1:54306 - "HEAD /health HTTP/1.1" 405 Method Not Allowed
+INFO:     10.78.198.1:54322 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.78.198.1:54332 - "GET / HTTP/1.1" 200 OK
+INFO:     10.78.198.1:54336 - "GET /health HTTP/1.1" 200 OK
+INFO:     10.78.198.1:39678 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.78.198.1:39684 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     10.78.198.1:53844 - "GET / HTTP/1.1" 200 OK
+INFO:     10.78.198.1:42396 - "GET /docs HTTP/1.1" 200 OK
+INFO:     10.78.198.1:42406 - "GET /openapi.json HTTP/1.1" 200 OK
+INFO:     10.78.198.1:48880 - "POST /api/advanced/timestretch/analyze-bpm HTTP/1.1" 422 Unprocessable Entity
+WARNING:  WatchFiles detected changes in 'app/main.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [187585]
+INFO:     Stopping reloader process [187583]
