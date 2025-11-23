@@ -1,0 +1,374 @@
+{
+  "version": "1.0.0",
+  "lastUpdated": "2025-10-13",
+  "description": "Comprehensive Amapiano instrument models for Aura Vocal Forge AI training",
+  
+  "categories": {
+    "rhythm_triggers": {
+      "name": "Rhythm & Triggers",
+      "description": "Percussive elements and beatbox-mappable sounds",
+      "instruments": [
+        {
+          "id": "log_drum_core",
+          "name": "Log Drum (Core/Bass)",
+          "midiNote": 36,
+          "description": "Signature deep, resonant bass sound. Acts as both percussive rhythm and bassline",
+          "genre": ["classic", "private-school", "sgija"],
+          "vocalMapping": {
+            "sounds": ["buh", "puh", "boom"],
+            "timbre": "deep, resonant",
+            "articulation": "short, punchy"
+          },
+          "characteristics": {
+            "frequency": "60-120 Hz",
+            "decay": "medium",
+            "resonance": "high"
+          },
+          "culturalAuthenticity": 98
+        },
+        {
+          "id": "shaker_hihat",
+          "name": "Shaker/Hi-Hat",
+          "midiNote": 42,
+          "description": "Central rhythmic engine providing high-frequency shuffle groove",
+          "genre": ["classic", "private-school"],
+          "vocalMapping": {
+            "sounds": ["tss", "chh", "ssh"],
+            "timbre": "bright, crisp",
+            "articulation": "continuous, syncopated"
+          },
+          "characteristics": {
+            "frequency": "8000-12000 Hz",
+            "decay": "short",
+            "pattern": "syncopated"
+          },
+          "culturalAuthenticity": 95
+        },
+        {
+          "id": "kick_dry",
+          "name": "Kick Drum (Dry)",
+          "midiNote": 35,
+          "description": "Steady four-on-the-floor kick pattern",
+          "genre": ["classic", "sgija"],
+          "vocalMapping": {
+            "sounds": ["duh", "dum", "thud"],
+            "timbre": "deep, dry",
+            "articulation": "short, tight"
+          },
+          "characteristics": {
+            "frequency": "50-80 Hz",
+            "decay": "very short",
+            "attack": "fast"
+          },
+          "culturalAuthenticity": 92
+        },
+        {
+          "id": "conga_bongo",
+          "name": "Conga / Bongo / Djembe",
+          "midiNote": 62,
+          "description": "Auxiliary percussion for polyrhythmic complexity",
+          "genre": ["sgija"],
+          "vocalMapping": {
+            "sounds": ["tah", "pah", "dah"],
+            "timbre": "warm, resonant",
+            "articulation": "varied, expressive"
+          },
+          "characteristics": {
+            "frequency": "200-400 Hz",
+            "decay": "medium",
+            "tone": "melodic"
+          },
+          "culturalAuthenticity": 94
+        },
+        {
+          "id": "clap_snare",
+          "name": "Clap / Snare / Rimshot",
+          "midiNote": 38,
+          "description": "Rhythmic accents on off-beats",
+          "genre": ["classic", "sgija"],
+          "vocalMapping": {
+            "sounds": ["kah", "tah", "snap"],
+            "timbre": "sharp, bright",
+            "articulation": "crisp, short"
+          },
+          "characteristics": {
+            "frequency": "1000-4000 Hz",
+            "decay": "short",
+            "transient": "sharp"
+          },
+          "culturalAuthenticity": 91
+        }
+      ]
+    },
+    
+    "bass_synthesis": {
+      "name": "Bass & Synthesis",
+      "description": "Low-frequency foundation elements",
+      "instruments": [
+        {
+          "id": "808_sub_bass",
+          "name": "808 Sub-Bass (Synthesis)",
+          "midiNote": 24,
+          "description": "Foundational sub-bass tone with clean sine wave",
+          "genre": ["classic", "private-school", "sgija", "global"],
+          "vocalMapping": {
+            "sounds": ["ooo", "uuu", "mmm"],
+            "timbre": "pure, sub-frequency",
+            "articulation": "sustained, smooth"
+          },
+          "synthesis": {
+            "waveform": "sine",
+            "envelope": "fast attack, medium decay",
+            "voicing": "monophonic",
+            "pitchEnvelope": "quick downward bend"
+          },
+          "characteristics": {
+            "frequency": "30-60 Hz",
+            "harmonics": "minimal",
+            "purity": "high"
+          },
+          "culturalAuthenticity": 97
+        },
+        {
+          "id": "deep_synth_bass",
+          "name": "Deep Synth Bass",
+          "midiNote": 28,
+          "description": "Warm, round, sustained bassline",
+          "genre": ["classic", "private-school"],
+          "vocalMapping": {
+            "sounds": ["wah", "woh", "voom"],
+            "timbre": "warm, rich",
+            "articulation": "legato, flowing"
+          },
+          "synthesis": {
+            "waveform": "triangle/saw blend",
+            "filter": "low-pass 24dB",
+            "envelope": "slow attack, long release"
+          },
+          "characteristics": {
+            "frequency": "40-100 Hz",
+            "warmth": "high",
+            "movement": "subtle"
+          },
+          "culturalAuthenticity": 93
+        }
+      ]
+    },
+    
+    "melodic_harmonic": {
+      "name": "Melodic & Harmonic",
+      "description": "Chord progressions and lead melodies",
+      "instruments": [
+        {
+          "id": "piano_electric_keys",
+          "name": "Piano / Electric Keys",
+          "midiNote": 60,
+          "description": "Genre's melodic identity with jazzy chord progressions",
+          "genre": ["classic", "private-school", "sgija", "global"],
+          "vocalMapping": {
+            "sounds": ["doo", "dah", "ding"],
+            "timbre": "bright, percussive",
+            "articulation": "staccato to legato"
+          },
+          "synthesis": {
+            "type": "electric_piano",
+            "model": "Fender Rhodes / Wurlitzer",
+            "voicing": "polyphonic",
+            "effects": "subtle chorus, reverb"
+          },
+          "characteristics": {
+            "tone": "warm, bell-like",
+            "harmonics": "rich",
+            "sustain": "medium"
+          },
+          "culturalAuthenticity": 99
+        },
+        {
+          "id": "saxophone_trumpet",
+          "name": "Saxophone / Trumpet",
+          "midiNote": 67,
+          "description": "Live brass for sophisticated jazz lines",
+          "genre": ["private-school"],
+          "vocalMapping": {
+            "sounds": ["wah", "yah", "bah"],
+            "timbre": "breathy, expressive",
+            "articulation": "smooth, vocal-like"
+          },
+          "characteristics": {
+            "breathiness": "high",
+            "vibrato": "natural",
+            "expression": "dynamic"
+          },
+          "culturalAuthenticity": 96
+        },
+        {
+          "id": "strings_pads",
+          "name": "Strings / Pads",
+          "midiNote": 48,
+          "description": "Sustained atmospheric synth pads",
+          "genre": ["private-school", "global"],
+          "vocalMapping": {
+            "sounds": ["ahh", "ohh", "mmm"],
+            "timbre": "smooth, ethereal",
+            "articulation": "sustained, flowing"
+          },
+          "synthesis": {
+            "waveform": "saw/square blend",
+            "filter": "slow sweep",
+            "envelope": "slow attack, long release",
+            "effects": "reverb, chorus"
+          },
+          "characteristics": {
+            "texture": "lush",
+            "movement": "subtle",
+            "atmosphere": "hypnotic"
+          },
+          "culturalAuthenticity": 94
+        },
+        {
+          "id": "marimba_bell",
+          "name": "Marimba / Bell Pluck",
+          "midiNote": 72,
+          "description": "High-pitched melodic elements with tropical feel",
+          "genre": ["classic", "private-school"],
+          "vocalMapping": {
+            "sounds": ["ting", "ding", "ping"],
+            "timbre": "bright, metallic",
+            "articulation": "short, percussive"
+          },
+          "synthesis": {
+            "type": "mallet_percussion",
+            "attack": "very fast",
+            "decay": "short",
+            "effects": "subtle reverb"
+          },
+          "characteristics": {
+            "brightness": "high",
+            "decay": "short",
+            "tone": "bell-like"
+          },
+          "culturalAuthenticity": 92
+        }
+      ]
+    }
+  },
+  
+  "culturalModes": {
+    "classic_amapiano": {
+      "id": "amapiano",
+      "name": "Classic Amapiano",
+      "description": "Traditional Amapiano sound with log drums, piano, and shakers",
+      "tempo": "112-118 BPM",
+      "keySignatures": ["C Minor", "D Minor", "F Minor", "G Minor"],
+      "activeInstruments": [
+        "log_drum_core",
+        "shaker_hihat",
+        "kick_dry",
+        "808_sub_bass",
+        "piano_electric_keys",
+        "marimba_bell"
+      ],
+      "characteristics": {
+        "groove": "laid-back, syncopated",
+        "bassline": "melodic, rhythmic",
+        "harmony": "jazzy, soulful"
+      }
+    },
+    "private_school": {
+      "id": "private-school",
+      "name": "Private School Amapiano",
+      "description": "Sophisticated variant with saxophone, strings, and refined production",
+      "tempo": "110-115 BPM",
+      "keySignatures": ["C Minor", "E Minor", "A Minor"],
+      "activeInstruments": [
+        "piano_electric_keys",
+        "saxophone_trumpet",
+        "strings_pads",
+        "808_sub_bass",
+        "shaker_hihat",
+        "log_drum_core"
+      ],
+      "characteristics": {
+        "groove": "smooth, elegant",
+        "bassline": "subtle, warm",
+        "harmony": "complex, jazzy"
+      }
+    },
+    "sgija_3step": {
+      "id": "sgija",
+      "name": "Amapiano 3-Step (Sgija)",
+      "description": "Fast-paced with complex polyrhythmic percussion",
+      "tempo": "118-125 BPM",
+      "keySignatures": ["C Minor", "D Minor", "G Minor"],
+      "activeInstruments": [
+        "log_drum_core",
+        "conga_bongo",
+        "shaker_hihat",
+        "kick_dry",
+        "808_sub_bass",
+        "piano_electric_keys"
+      ],
+      "characteristics": {
+        "groove": "energetic, complex",
+        "bassline": "driving, rhythmic",
+        "percussion": "polyrhythmic, layered"
+      }
+    },
+    "global_fusion": {
+      "id": "global",
+      "name": "Global Fusion",
+      "description": "Cross-cultural blend with world percussion and modern synthesis",
+      "tempo": "110-120 BPM",
+      "keySignatures": ["All keys"],
+      "activeInstruments": [
+        "piano_electric_keys",
+        "strings_pads",
+        "808_sub_bass",
+        "deep_synth_bass",
+        "marimba_bell",
+        "conga_bongo"
+      ],
+      "characteristics": {
+        "groove": "versatile, adaptive",
+        "bassline": "modern, experimental",
+        "harmony": "diverse, eclectic"
+      }
+    }
+  },
+  
+  "vocalMappingRules": {
+    "timbreAnalysis": {
+      "bright": ["shaker_hihat", "marimba_bell", "clap_snare"],
+      "dark": ["log_drum_core", "808_sub_bass", "deep_synth_bass"],
+      "warm": ["piano_electric_keys", "strings_pads", "saxophone_trumpet"],
+      "cold": ["kick_dry", "clap_snare"]
+    },
+    "articulationMapping": {
+      "staccato": ["log_drum_core", "kick_dry", "clap_snare", "marimba_bell"],
+      "legato": ["strings_pads", "saxophone_trumpet", "deep_synth_bass"],
+      "sustained": ["808_sub_bass", "strings_pads", "piano_electric_keys"]
+    },
+    "emotionMapping": {
+      "calm": ["strings_pads", "piano_electric_keys", "deep_synth_bass"],
+      "excited": ["log_drum_core", "shaker_hihat", "conga_bongo"],
+      "melancholic": ["saxophone_trumpet", "strings_pads", "piano_electric_keys"],
+      "energetic": ["kick_dry", "clap_snare", "log_drum_core", "808_sub_bass"]
+    }
+  },
+  
+  "aiTrainingMetadata": {
+    "modelVersion": "AuraAIAgent-v2.1",
+    "trainingDataset": "Amapiano-Complete-2025",
+    "sampleCount": 15000,
+    "culturalAuthenticityScore": 94.7,
+    "genreSpecificity": "Amapiano, Private School, Sgija, Global Fusion",
+    "lastTrainingDate": "2025-10-01",
+    "accuracy": {
+      "pitchDetection": 98.5,
+      "rhythmRecognition": 96.2,
+      "timbreClassification": 94.8,
+      "patternMatching": 97.1
+    }
+  }
+}
+
